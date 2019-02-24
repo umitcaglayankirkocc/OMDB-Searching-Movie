@@ -49,7 +49,12 @@ $(document).ready(function() {
             .appendTo(".see-movie");
     };
 
-   
+    $("a").click(function() {
+        $(".display-movie").removeClass("display-movie")
+        $(this).remove();
+        $(".daha-fazla").append("<a href='#top'>BAŞA DÖN</a>")
+
+    });
 
 
 
