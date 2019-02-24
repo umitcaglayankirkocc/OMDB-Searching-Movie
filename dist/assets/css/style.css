@@ -1,0 +1,171 @@
+        body {
+            font-family: Helvetica;
+        }
+
+        .bg {
+            background: #F7F9FD;
+            padding-top: 2%;
+        }
+
+        .border-bottom {
+            padding-bottom: 2%;
+            border-bottom: 3px solid #F1EEF2;
+            padding-top: 2%;
+        }
+
+        .search-button-edit {
+            padding: 0;
+            background: #fff;
+            border: 1px solid #F1EEF2;
+            border-right: 0px;
+            border-radius: 10px;
+            padding-right: 20px;
+        }
+
+        .imdb-rat-edit {
+            font-size: 25px;
+            color: #5882fc;
+        }
+
+        .imdb-rat-edit img {
+            margin-right: 3%;
+            width: 10%;
+        }
+
+        .card-title {
+            margin-bottom: 0rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 0rem;
+        }
+
+        .input-border {
+            border: 1px solid #F1EEF2;
+            border-right: 0px;
+            box-shadow: none;
+        }
+
+        .edit-card {
+            background: none;
+            border: 0px;
+        }
+
+        .row.see-movie {
+            padding-top: 5%;
+        }
+
+        .see-movie .display-movie:nth-child(n+3) {
+            display: none;
+        }
+
+        .search-img {
+            width: 75%;
+        }
+
+        .form-control:focus {
+            border-color: #F1EEF2;
+        }
+
+        .daha-fazla {
+            padding: 3%;
+        }
+
+        .ui-helper-hidden-accessible {
+            display: none;
+        }
+
+        input:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+
+
+
+
+/* 
+
+LESS
+LESS
+LESS
+@color_1: #5882fc;
+@font_family_1: Helvetica;
+@border_color_1: #F1EEF2;
+
+body {
+	font-family: @font_family_1;
+}
+.bg {
+	background: #F7F9FD;
+	padding-top: 2%;
+}
+.border-bottom {
+	padding-bottom: 2%;
+	border-bottom: 3px solid #F1EEF2;
+	padding-top: 2%;
+}
+.search-button-edit {
+	padding: 0;
+	background: #fff;
+	border: 1px solid #F1EEF2;
+	border-right: 0px;
+	border-radius: 10px;
+	padding-right: 20px;
+}
+.imdb-rat-edit {
+	font-size: 25px;
+	color: @color_1;
+	img {
+		margin-right: 3%;
+		width: 10%;
+	}
+}
+.card-title {
+	margin-bottom: 0rem;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0rem;
+}
+.input-border {
+	border: 1px solid #F1EEF2;
+	border-right: 0px;
+	box-shadow: none;
+}
+.edit-card {
+	background: none;
+	border: 0px;
+}
+.row.see-movie {
+	padding-top: 5%;
+}
+.see-movie {
+	.display-movie {
+		&:nth-child(n&+3) {
+			display: none;
+		}
+	}
+}
+.search-img {
+	width: 75%;
+}
+.form-control {
+	&:focus {
+		border-color: @border_color_1;
+	}
+}
+.daha-fazla {
+	padding: 3%;
+}
+.ui-helper-hidden-accessible {
+	display: none;
+}
+input {
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+*/
